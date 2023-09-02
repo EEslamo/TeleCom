@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.86);
+    height: 2000px;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px 0px 280px;
+}
+
+.navbar ul button {
+    background-color: transparent;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid white;
+    transition: 0.5s;
+    margin-left:  15px;
+}
+
+.navbar ul button:hover {
+    background-color: red;
+}
+
+.nav ul li {
+    margin: 40px;
+}
+
+.navbar ul li a {
+    /* color: white; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar a h1 {
+    margin: 30px 270px 0px 0px;
+}
+
+.navbar ul li a {
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+.t {
+    color: red;
+}
+
+.c {
+    color: blue;
+}
+
+.navbar ul li a:hover {
+    color: red;
+}
+
+/* End of navbar */
+
+.secondpart {
+    margin-top: 190px;
+    width: 100%;
+    height: 425px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondpart .photo {
+    width: 40%;
+}
+
+.secondpart .photo img {
+    width: 95%;
+    height: 210px;
+    margin-left: 110px;
+    /* margin-right: 60px; */
+}
+
+
+
+.secondpart .text {
+    margin-top: 70px;
+    width: 40%;
+    float: right;
+}
+
+.secondpart .text h1 {
+    color: rgb(196, 196, 196);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    float: right;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.secondpart .text p {
+    color: white;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 300px;
+    margin-right: 100px;
+}
+
+
+.secondpart .text .start {
+    background-color: red;
+    color: white;
+    width: 75px;
+    height: 42px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin: 35px;
+    transition: all 0.6s;
+    box-shadow: 0px 0px 10px blue;
+}
+
+.secondpart .text .start:hover {
+    background-color: blue;
+    box-shadow: 0px 0px 10px red;
+
+}
+
+/* End of second part */
+
+.topic {
+    font-size: 22px;
+    text-align: center;
+}
+
+.subtopic {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.thirdpart {
+    width: 75%;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 55px 0px 50px 200px;
+}
+
+.thirdpart .category {
+    text-align: center;
+    width: 23.7%;
+    height: 90px;
+    background-color: rgb(65, 65, 65);
+
+}
+
+.thirdpart .category .message {
+    font-size: 25px;
+    padding-top: 35px;
+}
+
+.clients {
+    width: 75%;
+    color: rgb(233, 233, 233);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.thirdpart .category a {
+    text-decoration: none;
+}
+
+.thirdpart .category a h1:hover {
+    color: red;
+    transition: all 0.5s;
+}
+
+.clients1 {
+    text-align: center;
+}
+
+/* End of third part */
+
+.contact {
+    color: rgb(233, 233, 233);
+    font-size: 25px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.pcontact {
+    color: rgb(233, 233, 233);
+    text-align: center;
+    font-size: 17px;
+}
+
+.forthpart {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.forthpart .signin {
+    background-color: rgb(65, 65, 65);
+    width: 600px;
+    height: 740px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: solid red 6px;
+    border-bottom: solid red 6px;
+}
+
+.forthpart .signin .top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.forthpart .signin .name {
+    width: 38%;
+    height: 100px;
+    text-align: right;
+    margin: 35px 15px 0px 0px;
+}
+
+.forthpart .signin .name label {
+    font-size: 18px;
+    color: rgb(196, 196, 196);
+}
+
+.forthpart .signin .name input {
+    background-color: rgb(36, 36, 36);
+    width: 250px;
+    height: 30px;
+}
+
+.forthpart .signin .name input:hover {
+    color: white;
+}
+
+.forthpart .signin .email {
+    width: 38%;
+    height: 100px;
+    text-align: right;
+    margin: 35px 0px 0px 20px;
+}
+
+.forthpart .signin .email label {
+    font-size: 18px;
+    color: rgb(196, 196, 196);
+}
+
+.forthpart .signin .email input {
+    background-color: rgb(36, 36, 36);
+    width: 250px;
+    height: 30px;
+
+}
+
+.forthpart .signin .email input {
+    color: white;
+}
+
+.forthpart .signin .subject {
+    text-align: right;
+}
+
+.forthpart .signin .subject label {
+    color: rgb(196, 196, 196);
+    margin-right: 25px;
+}
+
+.forthpart .signin .subject input {
+    background-color: rgb(36, 36, 36);
+    width: 88%;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.forthpart .signin .subject input:hover {
+    color: white;
+}
+
+.forthpart .signin .message {
+    width: 90%;
+    height: 300px;
+    margin: 50px 0px 0px 35px;
+    text-align: right;
+}
+
+.forthpart .signin .message label {
+    color: rgb(196, 196, 196);
+}
+
+.forthpart .signin .message .textbox {
+    width: 100%;
+    height: 80%;
+    background-color: rgb(36, 36, 36);
+
+}
+
+.forthpart .signin .message .textbox:hover {
+    color: white;
+}
+.forthpart .signin .sendDiv{
+    text-align: center;
+}
+.forthpart .signin .sendDiv .send {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    transition: 0.3s;
+    border-radius: 5px;
+    /* margin: 50px 0px 0px 250px; */
+}
+
+.forthpart .signin .send:hover {
+    background-color: blue;
+}
+
+.forthpart .about {
+    background-color: rgb(65, 65, 65);
+    width: 500px;
+    /* height: 2px; */
+    /* background-color: blue; */
+    border-top: solid red 6px;
+    border-bottom: solid red 6px;
+}
+
+.forthpart .about .address {
+    /* background-color: red; */
+    width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forthpart .about .address h1 {
+    color: rgb(196, 196, 196);
+    font-size: 18px;
+    margin: 10px 10px 0px 0px;
+}
+
+.forthpart .about .address img {
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px 150px 0px 5px;
+}
+
+.forthpart .about .email {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    margin-top: 40px;
+}
+
+.forthpart .about .email h1 {
+    color: rgb(196, 196, 196);
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.forthpart .about .email img {
+    width: 60px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.forthpart .about .mobile {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    margin-top: 40px;
+}
+
+.forthpart .about .mobile h1 {
+    color: rgb(196, 196, 196);
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.forthpart .about .mobile img {
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.forthpart .location iframe {
+    width: 95%;
+    height: 450px;
+    margin: 40px 15px 10px 15px;
+}
+
+.fifthpart {
+    width: 85%;
+    height: 200px;
+    margin: 50px 0px 0px 80px;
+    background-color: rgb(65, 65, 65);
+    border-left: solid red 6px;
+    border-right: solid red 6px;
+    overflow: auto;
+
+}
+
+.fifthpart .upper {
+    text-align: center;
+    border-bottom: 2px solid white;
+    margin-top: 60px;
+}
+
+.fifthpart .upper h1 {
+    color: rgb(233, 233, 233);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.fifthpart .lower {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifthpart .lower .copyright {
+    color: rgb(233, 233, 233);
+    font-size: 17px;
+    margin: 20px 0px 0px 15px;
+}
+
+.fifthpart .lower ul {
+    margin: 15px 15px 0px 0px;
+    list-style: none;
+}
+
+.fifthpart .lower .res {
+    color: rgb(233, 233, 233);
+    font-size: 17px;
+}
+
+.fifthpart .lower a {
+    text-decoration: none;
+    color: red;
+    transition: 0.2s;
+}
+
+.fifthpart .lower a:hover {
+    color: blue;
+}
+
+@media()
